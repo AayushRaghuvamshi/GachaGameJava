@@ -101,7 +101,7 @@ public class GachaGameAppGui extends JFrame {
     private DefaultListModel viewCollectionListModel;
 
 
-    private static final String JSON_STORE = "./data/listOfCardCollections.json";
+    private static final String JSON_STORE = "./GachaGameEmulator/data/listOfCardCollections.json";
     private JsonWriter jsonWriter;
     private JsonReader jsonReader;
     private final Scanner sc = new Scanner(System.in);
@@ -196,7 +196,7 @@ public class GachaGameAppGui extends JFrame {
         checkCardExistsButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                playSound("./sounds/button-30.wav");
+                playSound("./GachaGameEmulator/sounds/button-30.wav");
                 parentCardLayoutPanel.removeAll();
                 parentCardLayoutPanel.add(checkIfCardPresentPanel);
                 parentCardLayoutPanel.repaint();
@@ -213,7 +213,7 @@ public class GachaGameAppGui extends JFrame {
         confirmCheckCardButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                playSound("./sounds/button-09.wav");
+                playSound("./GachaGameEmulator/sounds/button-09.wav");
                 currentCollectionNumber = Integer.parseInt(checkCardColChoiceField.getText());
                 currentCardCollection = getColFromNo(currentCollectionNumber);
                 insertCardsToMap();
@@ -229,7 +229,7 @@ public class GachaGameAppGui extends JFrame {
         instructionsButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                playSound("./sounds/button-30.wav");
+                playSound("./GachaGameEmulator/sounds/button-30.wav");
                 parentCardLayoutPanel.removeAll();
                 parentCardLayoutPanel.add(instructionsPanel);
                 parentCardLayoutPanel.repaint();
@@ -311,7 +311,7 @@ public class GachaGameAppGui extends JFrame {
         findACardButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                playSound("./sounds/button-30.wav");
+                playSound("./GachaGameEmulator/sounds/button-30.wav");
                 parentCardLayoutPanel.removeAll();
                 parentCardLayoutPanel.add(findCardPanel);
                 parentCardLayoutPanel.repaint();
@@ -334,7 +334,7 @@ public class GachaGameAppGui extends JFrame {
         removeDuplicatesOfAButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                playSound("./sounds/button-30.wav");
+                playSound("./GachaGameEmulator/sounds/button-30.wav");
                 parentCardLayoutPanel.removeAll();
                 parentCardLayoutPanel.add(removeDuplicatesOfOneCardPanel);
                 parentCardLayoutPanel.repaint();
@@ -357,7 +357,7 @@ public class GachaGameAppGui extends JFrame {
         removeCardButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                playSound("./sounds/button-09.wav");
+                playSound("./GachaGameEmulator/sounds/button-09.wav");
                 parentCardLayoutPanel.removeAll();
                 parentCardLayoutPanel.add(removeDuplicatesOfOneCardPanel);
                 parentCardLayoutPanel.repaint();
@@ -384,7 +384,7 @@ public class GachaGameAppGui extends JFrame {
         findButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                playSound("./sounds/button-09.wav");
+                playSound("./GachaGameEmulator/sounds/button-09.wav");
                 parentCardLayoutPanel.removeAll();
                 parentCardLayoutPanel.add(findCardPanel);
                 parentCardLayoutPanel.repaint();
@@ -412,7 +412,7 @@ public class GachaGameAppGui extends JFrame {
         removeAllDuplicatesButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                playSound("./sounds/button-30.wav");
+                playSound("./GachaGameEmulator/sounds/button-30.wav");
                 parentCardLayoutPanel.removeAll();
                 parentCardLayoutPanel.add(removeAllDuplicatesPanel);
                 parentCardLayoutPanel.repaint();
@@ -435,7 +435,7 @@ public class GachaGameAppGui extends JFrame {
         removeAllButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                playSound("./sounds/button-09.wav");
+                playSound("./GachaGameEmulator/sounds/button-09.wav");
                 parentCardLayoutPanel.removeAll();
                 parentCardLayoutPanel.add(removeAllDuplicatesPanel);
                 parentCardLayoutPanel.repaint();
@@ -461,7 +461,7 @@ public class GachaGameAppGui extends JFrame {
         confirmOrderRarityButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                playSound("./sounds/button-09.wav");
+                playSound("./GachaGameEmulator/sounds/button-09.wav");
                 currentCollectionNumber = Integer.parseInt(collectionNumberRarityField.getText());
                 currentCardCollection = getColFromNo(currentCollectionNumber);
                 orderCollectionByRarity();
@@ -486,7 +486,7 @@ public class GachaGameAppGui extends JFrame {
         orderACollectionByButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                playSound("./sounds/button-30.wav");
+                playSound("./GachaGameEmulator/sounds/button-30.wav");
                 parentCardLayoutPanel.removeAll();
                 parentCardLayoutPanel.add(orderByCategoryPanel);
                 parentCardLayoutPanel.repaint();
@@ -508,7 +508,7 @@ public class GachaGameAppGui extends JFrame {
         confirmOrderCategoryButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                playSound("./sounds/button-09.wav");
+                playSound("./GachaGameEmulator/sounds/button-09.wav");
                 currentCollectionNumber = Integer.parseInt(collectionToBeOrderedByCategoryField.getText());
                 currentCardCollection = getColFromNo(currentCollectionNumber);
                 String firstCat = orderFirstCatField.getText();
@@ -536,7 +536,7 @@ public class GachaGameAppGui extends JFrame {
         confirmViewSelect.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                playSound("./sounds/button-09.wav");
+                playSound("./GachaGameEmulator/sounds/button-09.wav");
                 currentCollectionNumber = Integer.parseInt(viewChoice.getText());
                 currentCardCollection = getColFromNo(currentCollectionNumber);
                 viewCollection();
@@ -554,7 +554,7 @@ public class GachaGameAppGui extends JFrame {
                 summonCardImagePanel.removeAll();
                 summonCardImagePanel.repaint();
                 summonCardImagePanel.revalidate();
-                playSound("./sounds/button-09.wav");
+                playSound("./GachaGameEmulator/sounds/button-09.wav");
                 currentCollectionNumber = Integer.parseInt(collectionSetSummon.getText());
                 currentCardCollection = getColFromNo(currentCollectionNumber);
                 narutoSet = Integer.parseInt(narutoSummon.getText());
@@ -578,7 +578,7 @@ public class GachaGameAppGui extends JFrame {
         summonTabButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                playSound("./sounds/button-30.wav");
+                playSound("./GachaGameEmulator/sounds/button-30.wav");
                 parentCardLayoutPanel.removeAll();
                 parentCardLayoutPanel.add(summonPanel);
                 parentCardLayoutPanel.repaint();
@@ -600,7 +600,7 @@ public class GachaGameAppGui extends JFrame {
         saveGameButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                playSound("./sounds/button-30.wav");
+                playSound("./GachaGameEmulator/sounds/button-30.wav");
                 parentCardLayoutPanel.removeAll();
                 parentCardLayoutPanel.add(savePanel);
                 parentCardLayoutPanel.repaint();
@@ -623,7 +623,7 @@ public class GachaGameAppGui extends JFrame {
         loadGameButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                playSound("./sounds/button-30.wav");
+                playSound("./GachaGameEmulator/sounds/button-30.wav");
                 parentCardLayoutPanel.removeAll();
                 parentCardLayoutPanel.add(loadPanel);
                 parentCardLayoutPanel.repaint();
@@ -650,7 +650,7 @@ public class GachaGameAppGui extends JFrame {
         viewCollectionButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                playSound("./sounds/button-30.wav");
+                playSound("./GachaGameEmulator/sounds/button-30.wav");
                 parentCardLayoutPanel.removeAll();
                 parentCardLayoutPanel.add(viewingPanel);
                 parentCardLayoutPanel.repaint();
@@ -672,7 +672,7 @@ public class GachaGameAppGui extends JFrame {
         orderByRarityButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                playSound("./sounds/button-30.wav");
+                playSound("./GachaGameEmulator/sounds/button-30.wav");
                 parentCardLayoutPanel.removeAll();
                 parentCardLayoutPanel.add(orderRarityPanel);
                 parentCardLayoutPanel.repaint();
@@ -694,7 +694,7 @@ public class GachaGameAppGui extends JFrame {
         quitGameButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                playSound("./sounds/button-30.wav");
+                playSound("./GachaGameEmulator/sounds/button-30.wav");
                 parentCardLayoutPanel.removeAll();
                 parentCardLayoutPanel.add(quitPanel);
                 parentCardLayoutPanel.repaint();
@@ -799,7 +799,7 @@ public class GachaGameAppGui extends JFrame {
         summonResults = summoner.summon();
         for (Card card : summonResults) {
             if (card.getRarity().equals("LR")) {
-                playSound("./sounds/Kids Saying Yay [Sound Effect] (online-audio-converter.com).wav");
+                playSound("./GachaGameEmulator/sounds/Kids Saying Yay [Sound Effect] (online-audio-converter.com).wav");
             }
             summonResultsModel.addElement(cardToText(card));
             currentCardCollection.insertCards(card);
@@ -921,7 +921,7 @@ public class GachaGameAppGui extends JFrame {
     public JPanel createPanelWithCardImage(String name) {
         BufferedImage cardImage = null;
         try {
-            cardImage = ImageIO.read(new File("./images/" + name + ".png"));
+            cardImage = ImageIO.read(new File("./GachaGameEmulator/images/" + name + ".png"));
         } catch (IOException exception) {
             exception.printStackTrace();
         }
