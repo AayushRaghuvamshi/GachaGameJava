@@ -51,12 +51,12 @@ public class JsonWriterTest extends JsonTest {
     void testWriterEmptyListOfCardCollections() {
         try {
             ListOfCardCollections l = new ListOfCardCollections("Aayush's collections");
-            JsonWriter writer = new JsonWriter("./data/testWriterEmptyListOfCardCollections.json");
+            JsonWriter writer = new JsonWriter("./GachaGameEmulator/data/testWriterEmptyListOfCardCollections1.json");
             writer.open();
             writer.write(l);
             writer.close();
 
-            JsonReader reader = new JsonReader("./data/testWriterEmptyListOfCardCollections.json");
+            JsonReader reader = new JsonReader("./GachaGameEmulator/data/testWriterEmptyListOfCardCollections1.json");
             l = reader.read();
             assertEquals("Aayush's collections", l.getName());
             assertEquals(0, l.numCollections());
@@ -68,12 +68,12 @@ public class JsonWriterTest extends JsonTest {
     @Test
     void testWriterGeneralWorkroom() {
         try {
-            JsonWriter writer = new JsonWriter("./data/testWriterGeneralListOfCardCollections.json");
+            JsonWriter writer = new JsonWriter("./GachaGameEmulator/data/testWriterGeneralListOfCardCollections1.json");
             writer.open();
             writer.write(listOfCardCollections);
             writer.close();
 
-            JsonReader reader = new JsonReader("./data/testWriterGeneralListOfCardCollections.json");
+            JsonReader reader = new JsonReader("./GachaGameEmulator/data/testWriterGeneralListOfCardCollections1.json");
             listOfCardCollections = reader.read();
             assertEquals("Ya boi's collections", listOfCardCollections.getName());
             List<CardCollection> thingies = listOfCardCollections.getCardCollections();
