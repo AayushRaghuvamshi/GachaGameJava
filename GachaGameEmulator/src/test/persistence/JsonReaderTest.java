@@ -29,7 +29,7 @@ public class JsonReaderTest extends JsonTest {
 
     @Test
     void testReaderEmptyListOfCardCollections() {
-        JsonReader reader = new JsonReader("./data/testWriterEmptyListOfCardCollections.json");
+        JsonReader reader = new JsonReader("./GachaGameEmulator/data/testWriterEmptyListOfCardCollections1.json");
         try {
             ListOfCardCollections listOfCardCollections = reader.read();
             assertEquals("Aayush's collections", listOfCardCollections.getName());
@@ -41,7 +41,7 @@ public class JsonReaderTest extends JsonTest {
 
     @Test
     void testReaderGeneralListOfCardCollections() {
-        JsonReader reader = new JsonReader("./data/testWriterGeneralListOfCardCollections.json");
+        JsonReader reader = new JsonReader("./GachaGameEmulator/data/testWriterGeneralListOfCardCollections1.json");
         try {
             ListOfCardCollections wr = reader.read();
             assertEquals("Ya boi's collections", wr.getName());
