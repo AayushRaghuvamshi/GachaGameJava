@@ -1,8 +1,6 @@
 # A Gacha game emulator
 
-## Motivations and Purpose
-
-What will the application do? 
+## Functionality of this project-: 
 
 - *NOTE: throughout the project I use the terms Card and Unit interchangeably, they have the same meaning here.*
 
@@ -15,12 +13,12 @@ You can then remove units from your collection that you don't like, or change th
 displayed, i.e. by order of rarity, or the category they belong to, or both. Then you can feel proud of your 
 collection. You can have multiple Collections, which will be stored in a list of Collections. 
 
-Intended Audience-:
+## Intended Audience-:
 
 - Any Gacha game or card collecting enthusiast will enjoy this application, and especially those that are fans of characters
 from **MARVEL**, **NARUTO** and **DRAGON BALL**.
 
-Project Inspiration-:
+## Project Inspiration-:
 
 - I have loved collection card games since I was 8, from physical ones "**WWE Slam ATTAX**", "**Marvel HERO ATTAX**", to 
 games simulated in mobile apps, such as "**Dragon Ball Z: *Dokkan Battle***","**NARUTO: *Ultimate Ninja Blazing***", and
