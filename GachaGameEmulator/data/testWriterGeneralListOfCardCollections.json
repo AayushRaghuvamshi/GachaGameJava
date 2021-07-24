@@ -1,0 +1,39 @@
+{
+    "Card Collections": [
+        {"cards": [
+            {
+                "name": "Spider-man",
+                "category": "Marvel",
+                "rarity": "UR"
+            },
+            {
+                "name": "Hokage Naruto",
+                "category": "Naruto",
+                "rarity": "LR"
+            }
+        ]},
+        {"cards": [
+            {
+                "name": "Android 17",
+                "category": "Dragon Ball",
+                "rarity": "SR"
+            },
+            {
+                "name": "Bulma",
+                "category": "Dragon Ball",
+                "rarity": "R"
+            },
+            {
+                "name": "Adult Sasuke",
+                "category": "Naruto",
+                "rarity": "UR"
+            }
+        ]},
+        {"cards": [{
+            "name": "Black Widow",
+            "category": "Marvel",
+            "rarity": "SSR"
+        }]}
+    ],
+    "name": "Ya boi's collections"
+}

@@ -1,0 +1,304 @@
+{
+    "Card Collections": [
+        {"cards": [
+            {
+                "name": "Hokage Naruto",
+                "category": "Naruto",
+                "rarity": "LR"
+            },
+            {
+                "name": "Mastered Ultra Instinct Goku",
+                "category": "Dragon Ball",
+                "rarity": "LR"
+            },
+            {
+                "name": "Baby Groot",
+                "category": "Marvel",
+                "rarity": "LR"
+            },
+            {
+                "name": "Might Guy",
+                "category": "Naruto",
+                "rarity": "UR"
+            },
+            {
+                "name": "Madara",
+                "category": "Naruto",
+                "rarity": "UR"
+            },
+            {
+                "name": "Adult Sasuke",
+                "category": "Naruto",
+                "rarity": "UR"
+            },
+            {
+                "name": "Thanos",
+                "category": "Marvel",
+                "rarity": "UR"
+            },
+            {
+                "name": "Hashirama",
+                "category": "Naruto",
+                "rarity": "UR"
+            },
+            {
+                "name": "Ultra Instinct Goku",
+                "category": "Dragon Ball",
+                "rarity": "UR"
+            },
+            {
+                "name": "Spider-man",
+                "category": "Marvel",
+                "rarity": "UR"
+            },
+            {
+                "name": "SSB Evolution Vegeta",
+                "category": "Dragon Ball",
+                "rarity": "UR"
+            },
+            {
+                "name": "Hulk",
+                "category": "Marvel",
+                "rarity": "SSR"
+            },
+            {
+                "name": "Captain America",
+                "category": "Marvel",
+                "rarity": "SSR"
+            },
+            {
+                "name": "Kefla",
+                "category": "Dragon Ball",
+                "rarity": "SSR"
+            },
+            {
+                "name": "Hawkeye",
+                "category": "Marvel",
+                "rarity": "SSR"
+            },
+            {
+                "name": "Kakashi",
+                "category": "Naruto",
+                "rarity": "SSR"
+            },
+            {
+                "name": "Konohamaru",
+                "category": "Naruto",
+                "rarity": "SSR"
+            },
+            {
+                "name": "Sentry",
+                "category": "Marvel",
+                "rarity": "SSR"
+            },
+            {
+                "name": "Jiren",
+                "category": "Dragon Ball",
+                "rarity": "SSR"
+            },
+            {
+                "name": "Obito",
+                "category": "Naruto",
+                "rarity": "SSR"
+            },
+            {
+                "name": "Iron-Man",
+                "category": "Marvel",
+                "rarity": "SSR"
+            },
+            {
+                "name": "Wolverine",
+                "category": "Marvel",
+                "rarity": "SSR"
+            },
+            {
+                "name": "Broly",
+                "category": "Dragon Ball",
+                "rarity": "SSR"
+            },
+            {
+                "name": "Black Widow",
+                "category": "Marvel",
+                "rarity": "SSR"
+            },
+            {
+                "name": "Android 17",
+                "category": "Dragon Ball",
+                "rarity": "SR"
+            },
+            {
+                "name": "Choji",
+                "category": "Naruto",
+                "rarity": "SR"
+            },
+            {
+                "name": "Shino",
+                "category": "Naruto",
+                "rarity": "SR"
+            },
+            {
+                "name": "Trunks",
+                "category": "Dragon Ball",
+                "rarity": "SR"
+            },
+            {
+                "name": "Nightcrawler",
+                "category": "Marvel",
+                "rarity": "SR"
+            },
+            {
+                "name": "Bardock",
+                "category": "Dragon Ball",
+                "rarity": "SR"
+            },
+            {
+                "name": "Omoi",
+                "category": "Naruto",
+                "rarity": "SR"
+            },
+            {
+                "name": "Mantis",
+                "category": "Marvel",
+                "rarity": "SR"
+            },
+            {
+                "name": "Asuma",
+                "category": "Naruto",
+                "rarity": "SR"
+            },
+            {
+                "name": "Sakura",
+                "category": "Naruto",
+                "rarity": "SR"
+            },
+            {
+                "name": "Master Roshi",
+                "category": "Dragon Ball",
+                "rarity": "SR"
+            },
+            {
+                "name": "Janemba",
+                "category": "Dragon Ball",
+                "rarity": "SR"
+            },
+            {
+                "name": "Drax",
+                "category": "Marvel",
+                "rarity": "SR"
+            },
+            {
+                "name": "Darui",
+                "category": "Naruto",
+                "rarity": "SR"
+            },
+            {
+                "name": "Kushina",
+                "category": "Naruto",
+                "rarity": "SR"
+            },
+            {
+                "name": "Krillin",
+                "category": "Dragon Ball",
+                "rarity": "SR"
+            },
+            {
+                "name": "Nail",
+                "category": "Dragon Ball",
+                "rarity": "SR"
+            },
+            {
+                "name": "Ms Marvel",
+                "category": "Marvel",
+                "rarity": "SR"
+            },
+            {
+                "name": "Goten",
+                "category": "Dragon Ball",
+                "rarity": "SR"
+            },
+            {
+                "name": "Falcon",
+                "category": "Marvel",
+                "rarity": "SR"
+            },
+            {
+                "name": "Cyclops",
+                "category": "Marvel",
+                "rarity": "SR"
+            },
+            {
+                "name": "Android 18",
+                "category": "Dragon Ball",
+                "rarity": "SR"
+            },
+            {
+                "name": "Cooler",
+                "category": "Dragon Ball",
+                "rarity": "SR"
+            },
+            {
+                "name": "Iruka",
+                "category": "Naruto",
+                "rarity": "SR"
+            },
+            {
+                "name": "Piccolo",
+                "category": "Dragon Ball",
+                "rarity": "SR"
+            },
+            {
+                "name": "Kabuto",
+                "category": "Naruto",
+                "rarity": "SR"
+            },
+            {
+                "name": "Bulma",
+                "category": "Dragon Ball",
+                "rarity": "R"
+            },
+            {
+                "name": "Ramen Guy",
+                "category": "Naruto",
+                "rarity": "R"
+            },
+            {
+                "name": "Rocket",
+                "category": "Marvel",
+                "rarity": "R"
+            },
+            {
+                "name": "Yamcha",
+                "category": "Dragon Ball",
+                "rarity": "R"
+            },
+            {
+                "name": "Hercule",
+                "category": "Dragon Ball",
+                "rarity": "R"
+            },
+            {
+                "name": "Ebisu",
+                "category": "Naruto",
+                "rarity": "R"
+            },
+            {
+                "name": "Udon",
+                "category": "Naruto",
+                "rarity": "R"
+            },
+            {
+                "name": "Nebula",
+                "category": "Marvel",
+                "rarity": "R"
+            },
+            {
+                "name": "Star Lord",
+                "category": "Marvel",
+                "rarity": "R"
+            }
+        ]},
+        {"cards": []},
+        {"cards": []}
+    ],
+    "name": "Gacha Supreme"
+}
